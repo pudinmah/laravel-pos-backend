@@ -17,7 +17,7 @@ class UserSeeder extends Seeder
 
         \App\Models\User::create([
             'name' => 'Admin Mahpudin',
-            'email' => 'admin@g.com',
+            'email' => 'admin@admin.com',
             'password' => Hash::make('12341234'),
             'phone' => '085155288364',
         ]);
